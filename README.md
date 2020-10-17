@@ -1,6 +1,6 @@
 * Fetch Rewards Coding Exercise - Data Engineer
 
-The code in this repo is in response to this challenge from Fetch Rewards [https://fetch-hiring.s3.amazonaws.com/data-engineer/text-similarity.html]
+The code in this repo is in response to [this challenge](https://fetch-hiring.s3.amazonaws.com/data-engineer/text-similarity.html) from Fetch Rewards.
 
 Scoring the similarity of documents is a thoroughly developed area of computer science and algorithmic study.
 I have nothing new to contribute to that body of knowledge with this coding challenge.
@@ -14,8 +14,13 @@ I know more about document similarity now than I did before this challenge.
 
 Also, this is the first time I've ever used Flask.
 
+Here's what to do:
+```
+git clone https://github.com/rothrock/fetch.git
+cd fetch
+```
 
-First, build the image.
+build the image.
 ```
 docker build -t fetch:latest .
 ```
