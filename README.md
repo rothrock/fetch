@@ -30,7 +30,12 @@ Start the app.
 docker run --name fetch -d -p 5000:5000 fetch
 ```
 
-Use the curl command line utility to get the comparison score:
+Run this shell script:
+```
+./compare.sh sample_2.txt sample_1.txt 
+```
+
+Or, use the curl command line utility directly to get the comparison score:
 ```
 curl --data-urlencode doc_a@sample_1.txt --data-urlencode doc_b@sample_2.txt http://localhost:5000/score
 ```
