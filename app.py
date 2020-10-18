@@ -104,7 +104,11 @@ def silly_score(word_list_a, word_list_b):
         for pair in zipped_list:
             if pair[0] == pair[1]:
                 match += 1
-    return match/avg_len
+    result = match/avg_len
+    if result > 1:
+        result = 1
+
+    return result
 
 
 def jaccard(word_list_a, word_list_b):
